@@ -189,4 +189,4 @@ client.on ("message", async (msg) => {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-client.login(client.config.TOKEN);
+client.login(process.env.TOKEN);
